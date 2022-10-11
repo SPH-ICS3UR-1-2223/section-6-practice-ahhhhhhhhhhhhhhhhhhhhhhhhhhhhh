@@ -12,7 +12,8 @@ public class ValidatePin {
         int userGuesses=1;
         while (userPin !=pin) {
         	System.out.println("Invalid PIN. Try again."); 
-        	
+        	userPin=in.nextInt();
         }
+        System.out.println("Correct. Weclome KingSnake56");
     }
 }
