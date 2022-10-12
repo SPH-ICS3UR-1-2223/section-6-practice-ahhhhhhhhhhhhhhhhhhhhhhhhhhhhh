@@ -3,7 +3,7 @@ package LoopShape;
 public class LoopShapeTest {
     public static void main(String[] args) {
         
-        LoopShape.createRectangle(5, 4);
+        LoopShape.createRectangle(1, 1);
         LoopShape.createTriangle(5);
     }   
 }
