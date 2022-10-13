@@ -24,9 +24,13 @@ public class LoopShape {
         		System.out.println();
         	}
         }
+        if(height<=1) {
+        	System.out.println();
+        } else {
         for (int boi=1; boi<width+1; boi++) {
     		System.out.print("#");
-	}
+        }
+        }
 //        System.out.println();
 //        for (int counter=1; counter<=height-2;counter++) {
 //        	System.out.println("#");
