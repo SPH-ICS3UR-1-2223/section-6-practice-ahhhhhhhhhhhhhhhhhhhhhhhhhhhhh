@@ -10,8 +10,9 @@ public class LoopShape {
     		//print out symbol
     		System.out.print("#");
     		
-    	//print out your newline\
     	}
+    	//print out your newline\
+    	
     	System.out.println();
         for (int counter=1; counter<=height-2;counter++) {
         	System.out.print("#");
@@ -40,7 +41,12 @@ public class LoopShape {
     
     static void createTriangle(int leg){
         //Draw an Isosceles Right Triangle
-        
+    	System.out.println();
+    	System.out.println();
+    	for (int counter=1;counter<=leg;counter++) {
+    		//print out symbol
+    		System.out.print("#");
         
     }
+}
 }
