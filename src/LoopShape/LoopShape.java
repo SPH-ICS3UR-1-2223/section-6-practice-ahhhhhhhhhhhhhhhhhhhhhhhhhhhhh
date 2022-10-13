@@ -10,9 +10,8 @@ public class LoopShape {
     		//print out symbol
     		System.out.print("#");
     		
-    	}
     	//print out your newline\
-    	
+    	}
     	System.out.println();
         for (int counter=1; counter<=height-2;counter++) {
         	System.out.print("#");
@@ -25,6 +24,9 @@ public class LoopShape {
         		System.out.println();
         	}
         }
+        for (int boi=1; boi<width+1; boi++) {
+    		System.out.print("#");
+	}
 //        System.out.println();
 //        for (int counter=1; counter<=height-2;counter++) {
 //        	System.out.println("#");
