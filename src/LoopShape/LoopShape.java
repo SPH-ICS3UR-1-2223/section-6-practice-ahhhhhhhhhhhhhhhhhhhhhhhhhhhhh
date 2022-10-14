@@ -43,16 +43,15 @@ public class LoopShape {
         //Draw an Isosceles Right Triangle
     	System.out.println();
     	System.out.println();
-    	 for (int counter=1; counter<=leg-2;counter++) {
+    	 for (int counter=1; counter<=leg-1;counter++) {
          	System.out.print("#");
-         	for (int counter2=0;counter2<leg-2;counter2++) {
-         		System.out.print(" ");
+         	System.out.println();
          	}
-         	if (leg>1) {
-         		System.out.println("#");
-         	}else {
-         		System.out.println();
-         	}
+    	 for (int counter=1;counter<=leg;counter++) {
+    		 System.out.print("#");
          }
-}
+    	
+    	 
+    	 
+    }
 }
