@@ -52,14 +52,14 @@ public class LoopShape {
          	System.out.print("#");
          	System.out.println();
          	}
-    		
-    	 for (int counter=1;counter<=leg;counter++) {
-    		 System.out.print("#");
-    		 
+    	if (leg <= 1) {	
+    	System.out.println();
+    	 
+    	}else{
+    		 for (int counter=1;counter<=leg;counter++) {
+        		 System.out.print("#");   		 
     	 }
-//    	 for(int boi=2;boi<=leg;boi++) {
-//    		 
-//    	 }
     	 
     }
+}
 }
